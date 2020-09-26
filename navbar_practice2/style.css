@@ -1,0 +1,50 @@
+:root {
+    --background-color: #345259;
+    --accent-color: #F2DC99;
+    --text-color: #F2F2F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 8px 32px;
+}
+
+.navbar__logo {
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.navbar__logo i {
+    color: var(--accent-color);
+}
+
+.navbar__menu {
+    display: flex;
+}
+
+.navbar__menu a {
+    padding: 8px 24px;
+    font-size: 0.8rem;
+}
+
+.navbar__user {
+    font-size: 0.6rem;
+}
+
+.navbar__user a {
+    padding: 8px 12px;
+}
